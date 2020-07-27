@@ -1,1 +1,0 @@
-# Isaac-Garza.github.io
