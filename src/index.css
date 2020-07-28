@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ig-card {
+  margin: 20px
+}
+
+.ig-card-image {
+  border-radius: 10px;
+  width: 30px;
+  height: 40px;
+  box-shadow: 0px 0px 3px 1px #CCC;
+}
+
+.ig-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.ig-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.ig.card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
