@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-class App extends React.Component() {
+class App extends React.Component {
 
   constructor(props){
     super(props);
@@ -16,6 +16,14 @@ class App extends React.Component() {
         title: 'Be Relentless',
         subtitle: 'Projects that make a difference',
         text:'Checkout my projects below'
+      },
+      about: {
+        title: 'About Me',
+        
+      },
+      contact: {
+        title: 'Reach Me',
+        
       }
     }
   }
