@@ -20,7 +20,7 @@ class Carousel extends React.Component {
                     title: 'Left Card',
                     subTitle: 'This is the Left Card',
                     imgSrc: leftCardImg, 
-                    links: 'https://google.com',
+                    link: 'https://google.com',
                     selected: false
                 },
 
@@ -29,7 +29,7 @@ class Carousel extends React.Component {
                     title: 'Isaac Garza',
                     subTitle: 'This is Who I am',
                     imgSrc: centerCardImg, 
-                    links: 'https://google.com',
+                    link: 'https://google.com',
                     selected: false
                 },
 
@@ -38,7 +38,7 @@ class Carousel extends React.Component {
                     title: 'Right Card',
                     subTitle: 'This is the right card',
                     imgSrc: rightCardImg, 
-                    links: 'https://google.com',
+                    link: 'https://google.com',
                     selected: false
                 },
             ]
