@@ -8,3 +8,5 @@ function HomePage(props) {
         </p>
     );
 }
+
+export default HomePage;
