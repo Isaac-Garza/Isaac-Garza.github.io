@@ -40,12 +40,13 @@ class App extends React.Component {
             <Navbar.Brand>Isaac Garza</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle"></Navbar.Collapse>
-            <Nav className="ml-auto">
-              <Link className="nav-link" to="/">Home</Link>
-              <Link className="nav-link" to="/">About</Link>
-              <Link className="nav-link" to="/">Contact</Link>
-            </Nav>
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">About</Link>
+                <Link className="nav-link" to="/">Contact</Link>
+              </Nav>
+            </Navbar.Collapse>
           </Navbar>
 
         </Container>
