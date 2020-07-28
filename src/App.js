@@ -5,6 +5,8 @@ import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import Footer from './components/Footer';
+
 class App extends React.Component {
 
   constructor(props){
@@ -45,9 +47,13 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/">About</Link>
                 <Link className="nav-link" to="/">Contact</Link>
+
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          {/* <div style={{height:'100vh'}}></div> */}
+          <Footer />
 
         </Container>
 
