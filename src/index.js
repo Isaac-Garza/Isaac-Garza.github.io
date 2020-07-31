@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
+    <title>Isaac-Garza</title>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
