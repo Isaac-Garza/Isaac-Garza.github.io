@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 
 import Card from '../components/Card';
 
-import leftCardImg from '../assets/images/leftCardImg.png';
+import Octicons from '../assets/images/Octicons.png';
 import centerCardImg from '../assets/images/centerCardImg.png';
 import rightCardImg from '../assets/images/rightCardImg.png';
 import { Row } from 'react-bootstrap';
@@ -17,9 +17,9 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Left Card',
-                    subTitle: 'This is the Left Card',
-                    imgSrc: leftCardImg, 
+                    title: 'GitHub',
+                    subTitle: 'What I\'ve been working on.',
+                    imgSrc: Octicons, 
                     link: 'https://google.com',
                     selected: false
                 },
