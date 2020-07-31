@@ -1,12 +1,13 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
+import { Row } from 'react-bootstrap';
 
 import Card from '../components/Card';
 
 import Octicons from '../assets/images/Octicons.png';
-import centerCardImg from '../assets/images/centerCardImg.png';
-import rightCardImg from '../assets/images/rightCardImg.png';
-import { Row } from 'react-bootstrap';
+import myProfile from '../assets/images/myProfile.jpg';
+import repositoryIcon from '../assets/images/gh-rep-icon.jpg';
+
 
 
 class Carousel extends React.Component {
@@ -18,9 +19,9 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'GitHub',
-                    subTitle: 'What I\'ve been working on.',
+                    subTitle: 'What I\'ve worked on.',
                     imgSrc: Octicons, 
-                    link: 'https://google.com',
+                    link: 'https://github.com/Isaac-Garza',
                     selected: false
                 },
 
@@ -28,17 +29,17 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Isaac Garza',
                     subTitle: 'This is Who I am',
-                    imgSrc: centerCardImg, 
+                    imgSrc: myProfile, 
                     link: 'https://google.com',
                     selected: false
                 },
 
                 {
                     id: 2,
-                    title: 'Right Card',
-                    subTitle: 'This is the right card',
-                    imgSrc: rightCardImg, 
-                    link: 'https://google.com',
+                    title: 'Current Works',
+                    subTitle: 'What I\'m working on Now',
+                    imgSrc: repositoryIcon, 
+                    link: 'https://github.com/Isaac-Garza/CSUCI-LRC-TutorLogin/',
                     selected: false
                 },
             ]
