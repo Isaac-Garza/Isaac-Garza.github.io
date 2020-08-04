@@ -6,19 +6,12 @@ import Col from 'react-bootstrap/Col';
 
 import Stars from '../components/stars/shootingStar';
 
-
-
-
 function Hero(props) {
     return (
         <div>
-            
-
             <Jumbotron className="bg-transparent jumbotron-fluid p-0">
-            
+            <Stars />
                 <Container fluid={true}>
-                    <Stars />
-
                     <Row className="justify-content-center py-5">
                         <Col md={8} sm={6}>
                             {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
@@ -26,9 +19,7 @@ function Hero(props) {
                             {props.text && <h3 className="lead font-weight-light">{props.text}</h3>}
                         </Col>
                     </Row>
-
                 </Container>
-
             </Jumbotron>
         </div>
     );
