@@ -1,1 +1,1 @@
-export { default } from './stars.jsx';
+export { default } from './shootingStar.jsx';

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Hero from '../components/Hero'
 import Carousel from '../components/Carousel';
+import ShootingStar from '../components/stars';
 
 function HomePage(props) {
 
