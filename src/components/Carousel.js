@@ -7,6 +7,7 @@ import Card from '../components/Card';
 import Octicons from '../assets/images/Octicons.png';
 import myProfile from '../assets/images/myProfile.jpg';
 import repositoryIcon from '../assets/images/gh-rep-icon.jpg';
+import containerStyle from '../components/stars/stars.module.scss'
 
 
 
@@ -75,7 +76,7 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <Container fluid={true}>
+            <Container className={containerStyle.container_bg} fluid={true} background="#000000">
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>

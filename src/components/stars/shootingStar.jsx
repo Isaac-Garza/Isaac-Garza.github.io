@@ -26,6 +26,26 @@ const shootingStar = () => {
             <div className={style.shooting_star} />
             <div className={style.shooting_star} />
             <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
+            <div className={style.shooting_star} />
         </div>
     );
 }
