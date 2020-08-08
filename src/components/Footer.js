@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col'
 import '../App.scss';
 
 function footer() {
-    
-    return(
+
+    return (
         <footer class="mt-5">
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">

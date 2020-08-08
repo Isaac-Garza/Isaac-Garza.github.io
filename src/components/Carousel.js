@@ -21,7 +21,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'GitHub',
                     subTitle: 'What I\'ve worked on.',
-                    imgSrc: Octicons, 
+                    imgSrc: Octicons,
                     link: 'https://github.com/Isaac-Garza',
                     selected: false
                 },
@@ -30,7 +30,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Isaac Garza',
                     subTitle: 'This is Who I am',
-                    imgSrc: myProfile, 
+                    imgSrc: myProfile,
                     link: 'https://google.com',
                     selected: false
                 },
@@ -39,26 +39,25 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Current Works',
                     subTitle: 'What I\'m working on Now',
-                    imgSrc: repositoryIcon, 
+                    imgSrc: repositoryIcon,
                     link: 'https://github.com/Isaac-Garza/CSUCI-LRC-TutorLogin/',
                     selected: false
                 },
             ]
         }
-        
+
     }
 
     handleCardClick = (id, card) => {
 
         console.log(id);
 
-        let items =[...this.state.items];
+        let items = [...this.state.items];
 
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(item.id !== id)
-            {
+            if (item.id !== id) {
                 item.selected = false;
             }
         });
@@ -68,7 +67,7 @@ class Carousel extends React.Component {
         });
     }
 
-    makeItems = (items)  => {
+    makeItems = (items) => {
         return items.map(item => {
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
