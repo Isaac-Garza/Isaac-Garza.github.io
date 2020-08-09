@@ -9,7 +9,7 @@ function HomePage(props) {
     return(
         <>
             <ShootingStar />
-            <Hero title={props.title} subTitle= {props.subTitle} text={props.text}/>
+            <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
             <Carousel />
         </>
     );
