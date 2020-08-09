@@ -16,9 +16,10 @@
 .nav-bar {
   z-index: 9999;
   width: 100%;
+  border-bottom: 1px solid #eef0f2;
 }
 .div-background {
-  background : radial-gradient(ellipse at bottom, #0D1E31, #111);
+  background : white;
 }
 .App-header {
   background-color: #282c34;

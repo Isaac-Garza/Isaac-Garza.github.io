@@ -22,10 +22,14 @@ code {
   text-align: center;
 }
 
+.carousel-container {
+  z-index: 5;
+}
+
 .ig-card {
   margin: 20px;
   transition: 1s;
-  
+  z-index: 1;
 }
 
 .ig-card:hover {

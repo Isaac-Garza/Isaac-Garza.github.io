@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { 
-    Row,
-    Button
+    Row
 } from 'react-bootstrap';
 
 import { MdMail } from 'react-icons/md';
