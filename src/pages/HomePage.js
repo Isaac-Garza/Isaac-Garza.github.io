@@ -8,7 +8,7 @@ function HomePage(props) {
 
     return(
         <>
-            <ShootingStar />
+            {/* <ShootingStar /> */}
             <Hero title={props.title} subTitle= {props.subTitle} text={props.text}/>
             <Carousel />
         </>
