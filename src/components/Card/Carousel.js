@@ -29,16 +29,16 @@ class Carousel extends React.Component {
                     title: 'Isaac Garza',
                     subTitle: 'This is Who I am',
                     imgSrc: myProfile,
-                    link: 'https://google.com',
+                    link: 'https://www.linkedin.com/in/isaac-garza957/',
                     selected: false
                 },
 
                 {
                     id: 2,
                     title: 'Current Works',
-                    subTitle: 'What I\'m working on Now',
+                    subTitle: 'Lastest Project',
                     imgSrc: repositoryIcon,
-                    link: 'https://github.com/Isaac-Garza/CSUCI-LRC-TutorLogin/',
+                    link: 'http://www.isaac-garza.icheadache.cikeys.com/',
                     selected: false
                 },
             ]
