@@ -11,7 +11,7 @@ function AboutPage(props) {
             
             <Content>
                 <p>My name is Isaac Garza, I am a Software Enginner, Game Developer, and Web Developer. </p>
-                <p>I've been programming for 5 years and still continue to learn new techniques.</p> 
+                <p>I've alway in search of new techniques and finding challenging problems that can expand my knowledge and skills.</p> 
                 <p></p>
             </Content>
         </div>
