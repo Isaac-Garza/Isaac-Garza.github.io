@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
 import { Row } from 'react-bootstrap';
-import $ from 'jquery';
 
 import Card from './Card';
 import Octicons from '../../assets/images/Octicons.png';
