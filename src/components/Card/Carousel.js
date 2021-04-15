@@ -35,10 +35,10 @@ class Carousel extends React.Component {
 
                 {
                     id: 2,
-                    title: 'Current Works',
-                    subTitle: 'Lastest Project',
+                    title: 'Latest Works',
+                    subTitle: 'CI Tutor App',
                     imgSrc: repositoryIcon,
-                    link: 'http://www.isaac-garza.icheadache.cikeys.com/',
+                    link: 'https://github.com/Isaac-Garza/CSUCI-LRC-TutorLogin/',
                     selected: false
                 },
             ]
