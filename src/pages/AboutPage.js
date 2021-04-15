@@ -10,9 +10,9 @@ function AboutPage(props) {
             <Hero title={props.title} />
             
             <Content>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem donec.</p>
-                <p>Porta lorem mollis aliquam ut porttitor leo a diam. Risus pretium quam vulputate dignissim suspendisse in est ante. Tempor nec feugiat nisl pretium fusce id velit ut tortor.</p> 
-                <p>Lacus luctus accumsan tortor posuere. Tincidunt vitae semper quis lectus. Urna nunc id cursus metus aliquam eleifend mi. Nunc sed augue lacus viverra vitae. Ornare arcu odio ut sem nulla pharetra. Diam vulputate ut pharetra sit amet.</p>
+                <p>My name is Isaac Garza, I am a Software Enginner, Game Developer, and Web Developer. </p>
+                <p>I've been programming for 5 years and still continue to learn new techniques.</p> 
+                <p></p>
             </Content>
         </div>
     );

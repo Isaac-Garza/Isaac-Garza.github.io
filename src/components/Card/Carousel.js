@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
 import { Row } from 'react-bootstrap';
+import $ from 'jquery';
 
-import Card from '../components/Card';
-
-import Octicons from '../assets/images/Octicons.png';
-import myProfile from '../assets/images/myProfile.jpg';
-import repositoryIcon from '../assets/images/gh-rep-icon.jpg';
+import Card from './Card';
+import Octicons from '../../assets/images/Octicons.png';
+import myProfile from '../../assets/images/myProfile.jpg';
+import repositoryIcon from '../../assets/images/gh-rep-icon.jpg';
 
 
 
@@ -48,9 +48,6 @@ class Carousel extends React.Component {
     }
 
     handleCardClick = (id, card) => {
-
-        console.log(id);
-
         let items = [...this.state.items];
 
         items[id].selected = items[id].selected ? false : true;
@@ -64,6 +61,7 @@ class Carousel extends React.Component {
         this.setState({
             items
         });
+          
     }
 
     makeItems = (items) => {
