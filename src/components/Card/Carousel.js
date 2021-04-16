@@ -5,7 +5,7 @@ import { Row } from 'react-bootstrap';
 import Card from './Card';
 import Octicons from '../../assets/images/Octicons.png';
 import myProfile from '../../assets/images/myProfile.jpg';
-import repositoryIcon from '../../assets/images/gh-rep-icon.jpg';
+import repositoryIcon from '../../assets/images/capstone-icon.png';
 
 
 
